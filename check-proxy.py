@@ -8,7 +8,7 @@ if __name__ == '__main__':
     list_proxy=['<ip>:<port>']
     for proxy in list_proxy:
         check=ProxyChecker().check_proxy(proxy=proxy)
-        print(proxy+" # "+check)
+        print(proxy+" # "+str(check))
         # if "False" -> proxy die 
         #==========================================
         # example proxy live 
